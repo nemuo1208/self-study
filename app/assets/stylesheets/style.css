@@ -1,0 +1,111 @@
+/* ヘッター */
+.header{
+  display: flex;
+  background-color: #DBDBDBDB;
+  height: 100px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 100px;
+}
+
+.main-header{
+  font-size: 36px;
+  font-weight: 600;
+
+}
+
+.sub-header{
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.left-header{
+  padding-right: 70px;
+}
+
+.middle-header{
+  padding-right: 70px;
+}
+
+.right-header{
+
+}
+
+/* メイン */
+
+.main{
+  height: 700px;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-sub{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image {
+  width: 100vw;
+  height: 700px;
+  object-fit: cover;
+  opacity: 30%;
+
+}
+
+.left-title{
+  padding-left: 60px;
+}
+
+.main-title{
+  font-size: 70px;
+  font-weight: 600;
+  
+}
+
+.sub-title{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.right-title{
+  margin-right: 60px;
+}
+
+.button{
+  height: 100px;
+  width: 250px;
+  background-color: #959595;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button-text{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* フッター */
+
+.footer{
+  height: 70px;
+  width: 100vw;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-message{
+  font-size: 16px;
+  color: #959393;
+}
