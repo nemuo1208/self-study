@@ -109,3 +109,133 @@
   font-size: 16px;
   color: #959393;
 }
+
+
+/* service.html.erbのcss */
+
+
+/* topの二つ */
+.main-service{
+
+}
+
+.top-service{
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-top-service{
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.b{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-top-service{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* bottomの3つ */
+
+.bottom-service{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-bottom: 180px;
+}
+
+/* 左 */
+
+.left-bottom-service{
+  height: 420px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.left-image{
+  height: 275px;
+  width: 350px;
+}
+
+.left-explain{
+  height: 120px;
+  width: 350px;
+  background-color: #DADADA;
+}
+
+.left-explain-main{
+font-size: 18px;
+font-weight: 600;
+}
+
+.left-explain-sub{
+font-size: 14px;
+}
+
+/* 真ん中 */
+
+.middle-bottom-service{
+  height: 420px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.middle-image{
+  height: 275px;
+  width: 350px;
+}
+
+.middle-explain{
+  height: 120px;
+  width: 350px;
+  background-color: #DADADA;
+}
+
+.middle-explain-main{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.middle-explain-sub{
+  font-size: 14px;
+}
+
+/* 右 */
+
+.right-bottom-service{
+  height: 420px;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.right-image{
+  height: 275px;
+  width: 350px;
+}
+
+.right-explain{
+  height: 120px;
+  width: 350px;
+  background-color: #DADADA;
+}
+
+.right-explain-main{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right-explain-sub{
+  font-size: 14px;
+}

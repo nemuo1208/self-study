@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>APP FIRST</title>
+  <%=stylesheet_link_tag("application.css")%>
+  </head>
+  <body>
+    <div class = "header">
+      <div class = "main-header">APP FIRST</div>
+
+      <div class = "sub-header">
+        <div class = "left-header">SERVICE</div>
+        <div class = "middle-header">NEWS</div>
+        <div class = "right-header">CONTACT</div>
+      </div>
+    </div>
+
+    <div class = "main-service">
+      <div class = "top-service">
+        <div class = "a">
+          <div class = "main-top-service">SERVICE</div>
+        </div>  
+        <div class = "b">
+          <div class = "sub-top-service">サービス内容</div>
+        </div>  
+      </div>
+
+      <div class = "bottom-service">
+
+        <div class = "left-bottom-service">
+          <%=image_tag("work-shop.jpg", class: "left-image")%>
+          <div class = "left-explain">
+            <div class = "left-explain-main">仕様の作成・設計</div>
+            <div class = "left-explain-sub">お客様が実装したい機能をヒアリングし、最小のコストでテストリリースができる仕様に落とし込みます。</div>
+          </div>
+        </div>
+
+        <div class = "middle-bottom-service">
+          <%=image_tag("development.jpg", class: "middle-image")%>
+          <div class = "middle-explain">  
+            <div class = "middle-explain-main">開発</div>
+            <div class = "middle-explain-sub">作成した仕様に基づきコーディンングを行います。保守のしやすい高品質なコードが当社の強みです。</div>
+          </div>
+        </div>
+            
+        <div class = "right-bottom-service">
+          <%=image_tag("marketing.jpg", class: "right-image")%>
+          <div class = "right-explain">  
+            <div class = "right-explain-main">マーケティング</div>
+            <div class = "right-explain-sub">正式リリースしたアプリについては、ユーザー獲得の支援も承ります。</div>
+          </div>
+        </div>
+            
+      </div>
+    </div>
+
+    <div class = "footer">
+      <div class = "footer-message">Copyright©️2022 TECHCAMP</div>
+    </div>
+  </body>
+</html>
