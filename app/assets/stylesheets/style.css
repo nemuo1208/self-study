@@ -173,6 +173,7 @@
   height: 120px;
   width: 350px;
   background-color: #DADADA;
+  padding: 20px;
 }
 
 .left-explain-main{
@@ -182,6 +183,7 @@ font-weight: 600;
 
 .left-explain-sub{
 font-size: 14px;
+padding-top: 14px;
 }
 
 /* 真ん中 */
@@ -201,6 +203,7 @@ font-size: 14px;
   height: 120px;
   width: 350px;
   background-color: #DADADA;
+  padding: 20px;
 }
 
 .middle-explain-main{
@@ -210,6 +213,7 @@ font-size: 14px;
 
 .middle-explain-sub{
   font-size: 14px;
+  padding-top: 14px;
 }
 
 /* 右 */
@@ -229,6 +233,7 @@ font-size: 14px;
   height: 120px;
   width: 350px;
   background-color: #DADADA;
+  padding: 20px;
 }
 
 .right-explain-main{
@@ -238,4 +243,146 @@ font-size: 14px;
 
 .right-explain-sub{
   font-size: 14px;
+  padding-top: 14px;
+}
+
+/* newの画面 */
+
+.main-news{
+
+}
+
+/* メイン上 */
+
+.top-news{
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.main-top-news{
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.sub-top-news{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* メイン下 */
+
+.bottom-news{
+display: flex;
+}
+
+/* メイン下左画面 */
+
+.aa{
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.left-bottom-news{
+  height: 600px;
+  width: 630px;
+}
+
+.left-news-title{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.left-news-top{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.left-news-top-left{
+padding-right: 60px;
+font-size: 18px;
+}
+
+.left-news-top-right{
+  font-size: 18px;
+}
+
+.work-shop-image{
+  width: 630px;
+  height: 240px;
+}
+
+.left-news-bottom{
+  padding-top: 20px;
+}
+
+.left-news-middle{
+  font-size: 18px;
+}
+
+.left-news-bottom{
+  font-size: 18px;
+}
+
+/* メイン下右画面 */
+
+.bb{
+  width: 406px;
+  display: flex;
+  justify-content: center;
+}
+
+.right-bottom-news{
+
+}
+
+.right-news-title{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.right-news-top{
+  width: 200px;
+  height: 60px;
+  background-color: #EEEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.news-text-top{
+font-size: 18px;
+font-weight: 600;
+}
+
+.right-news-middle{
+  width: 200px;
+  height: 60px;
+  background-color: #EEEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.news-text-middle{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right-news-bottom{
+  width: 200px;
+  height: 60px;
+  background-color: #EEEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.news-text-bottom{
+  font-size: 18px;
+  font-weight: 600;
 }
