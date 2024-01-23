@@ -13,7 +13,8 @@
 .main-header{
   font-size: 36px;
   font-weight: 600;
-
+  text-decoration: none;
+  color: black;
 }
 
 .sub-header{
@@ -24,14 +25,19 @@
 
 .left-header{
   padding-right: 70px;
+  text-decoration: none;
+  color: black;
 }
 
 .middle-header{
   padding-right: 70px;
+  text-decoration: none;
+  color: black;
 }
 
 .right-header{
-
+  text-decoration: none;
+  color: black;
 }
 
 /* メイン */
@@ -386,3 +392,37 @@ font-weight: 600;
   font-size: 18px;
   font-weight: 600;
 }
+
+
+/* contact画面 */
+
+.contact-main{
+  height: 760px;
+}
+
+.daimei{
+  display: flex;
+}
+
+.heading-name{
+  font-size: 20px;
+  justify-content: center;
+}
+
+.input-all{
+  padding-top: 50px;
+}
+
+.tag{
+  font-size: 20px;
+}
+
+.filed{
+  font-size: larger;
+}
+
+.filed-1{
+  font-size: larger;
+  font-weight: 1500;
+}
+

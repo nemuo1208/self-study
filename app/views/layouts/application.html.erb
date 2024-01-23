@@ -8,9 +8,23 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    
   </head>
 
   <body>
+    <div class = "header">
+      <%=link_to "APP FIRST", root_path, class: "main-header" %>
+      <div class = "sub-header">
+        <%=link_to "SERVICE", service_path, class: "left-header" %>
+        <%= link_to "NEWS", news_path, class: "middle-header"%>
+        <%= link_to "CONTACT", contact_path, class: "right-header"%>
+
+      </div>
+    </div>
     <%= yield %>
+
+    <div class = "footer">
+      <div class = "footer-message">Copyright©️2022 TECHCAMP</div>
+    </div>
   </body>
 </html>
