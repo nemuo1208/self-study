@@ -400,17 +400,27 @@ font-weight: 600;
   height: 760px;
 }
 
+.content-form{
+}
+
 .daimei{
   display: flex;
 }
 
 .heading-name{
   font-size: 20px;
-  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+
 }
 
 .input-all{
   padding-top: 50px;
+  display: flex;
+}
+
+.contents{
+
 }
 
 .tag{
@@ -418,11 +428,18 @@ font-weight: 600;
 }
 
 .filed{
-  font-size: larger;
+  font-size: 20px;
+  height: 25px;
+  width: 300px;
 }
 
 .filed-1{
-  font-size: larger;
-  font-weight: 1500;
+  font-size: 20px;
+  height: 100px;
+  width: 500px;
 }
 
+.send{
+  height: 20px;
+  width: 60px;
+}
